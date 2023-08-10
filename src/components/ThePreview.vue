@@ -56,4 +56,14 @@ export default {
 .data-child {
   background-color: #ccc;
 }
+  @media (max-width: 768px) {
+  .contaiter {
+    margin-left: 100px;
+  }
+
+  .data-user,
+  .data-child {
+    max-width: 150px;
+  }
+}
 </style>
