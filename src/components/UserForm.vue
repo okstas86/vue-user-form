@@ -137,4 +137,19 @@ export default {
   color: #fff;
   cursor: pointer;
 }
+
+  
+@media (max-width: 768px) {
+  .container-top {
+    max-width: 100%;
+  }
+
+  .input-container input {
+    width: 100%;
+    max-width: none;
+  }
+  .child input {
+    max-width: 150px;
+  }
+}
 </style>
