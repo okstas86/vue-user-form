@@ -88,4 +88,19 @@ header ul {
 li {
   margin: 0 0.5rem;
 }
+
+  
+@media (max-width: 768px) {
+  header {
+    height: 3.5rem;
+  }
+
+  .nav-list {
+    margin-left: -20px;
+  }
+
+  header a {
+    padding: 0.5rem 1rem;
+  }
+}
 </style>
